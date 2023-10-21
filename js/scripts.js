@@ -166,10 +166,16 @@ $(document).ready(function () {
 
 
     /********************** Toggle Map Content **********************/
-    $('#btn-show-map').click(function () {
-        $('#map-content').toggleClass('toggle-map-content');
-        $('#btn-show-content').toggleClass('toggle-map-content');
-    });
+    /*
+        $('#btn-show-map').click(function () {
+            $('#map-content').toggleClass('toggle-map-content');
+            $('#btn-show-content').toggleClass('toggle-map-content');
+        });
+    */
+        $('#btn-show-map').click(function handleClick() {
+            // Redirect to the desired website
+            window.location.href = 'https://j.map.baidu.com/99/UIAK';
+        });
     $('#btn-show-content').click(function () {
         $('#map-content').toggleClass('toggle-map-content');
         $('#btn-show-content').toggleClass('toggle-map-content');
