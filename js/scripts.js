@@ -172,13 +172,19 @@ $(document).ready(function () {
             $('#btn-show-content').toggleClass('toggle-map-content');
         });
     */
-        $('#btn-show-map').click(function handleClick() {
-            // Redirect to the desired website
-            window.location.href = 'https://j.map.baidu.com/99/UIAK';
-        });
+    $('#btn-show-map').click(function handleClick() {
+        // Redirect to the desired website
+        window.location.href = 'https://j.map.baidu.com/99/UIAK';
+    });
+    /*
     $('#btn-show-content').click(function () {
         $('#map-content').toggleClass('toggle-map-content');
         $('#btn-show-content').toggleClass('toggle-map-content');
+    });
+    */
+    $('#btn-show-content').click(function () {
+        // Redirect to the desired website
+        window.location.href = 'https://j.map.baidu.com/99/UIAK';
     });
 
     /********************** Add to Calendar **********************/
@@ -190,17 +196,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Cheng and Gao's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('Dec 30, 2023 20:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('Dec 30, 2023 22:00'),
 
             // Event Address
             address: 'ITC Fortune Park Hotel, Kolkata',
